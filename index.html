@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="total">
+    <h2>Weather App</h2>
+    <div class="search">
+        <input type="search" placeholder="Enter city name" id="input">
+        <button type="button"><i class="fa-solid fa-magnifying-glass"></i></button> 
+    </div>
+    <div class="weather-info">
+        <img src="cloudy.jpeg" id="img">
+        <h2><p id="temp">30 °C</p></h2>
+        <h3><p id="location">Kolkata</p></h3>
+    </div>
+    <div class="weather-info-2">
+        <div class="windspeed">
+            <div id="windspeed-icon"> 
+                <i class="fa-solid fa-wind"></i><p id="p-windspeed-icon"> </p>
+            </div>
+            <p>Wind Speed</p>
+        </div>
+        <div class="uvidx">
+            <div id="uvidx-icon"> 
+                <i class="fa-solid fa-wind"></i><p id="p-uvidx-icon"> </p>
+            </div>
+            <p id="p-uv">Feels like</p>
+        </div>
+    </div>
+    <div class="weather-info-3">
+        <div class="pressure">
+            <div id="pressure-icon">
+                <i class="fa-solid fa-wind"></i><p id="p-pressure-icon"> </p> 
+            </div>
+            <p>Pressure</p>
+        </div>
+        <div class="humidity">
+            <div id="humidity-icon">
+                <i class="fa-solid fa-wind"></i><p id="p-humidity-icon"> </p>
+            </div>
+            <p>Humidity</p>
+        </div>
+    </div>
+</div> 
+</body>
+<script src="app.js"></script>
+</html>
